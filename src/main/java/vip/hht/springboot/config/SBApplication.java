@@ -27,7 +27,7 @@ public class SBApplication {
     @ResponseBody
     public String hello(){
         System.out.println("dataSource = " + dataSource);
-        return "你好,Spring boot";
+        return "你好,Spring boot123";
     }
     public static void main(String[] args) {
         SpringApplication.run(SBApplication.class,args);
